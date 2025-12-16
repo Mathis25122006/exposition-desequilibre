@@ -1,0 +1,32 @@
+{
+  "name": "exposition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Layout.js",
+  "scripts": {
+    "dev": "open -a Safari http://localhost:5175 && vite",
+    "build": "vite build",
+    "preview": "vite preview",
+   "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "framer-motion": "^12.23.26",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^10.4.22",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.2.7"
+  }
+}
