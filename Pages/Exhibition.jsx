@@ -1,12 +1,12 @@
 import React, { useState, useCallback } from 'react';
 // Note: J'ai laissé les chemins locaux, mais ils sont très longs.
-import ExhibitionCanvas from "/Users/mathisschecroun/Desktop/CPES2/Exposition/Components/exhibition/ExhibitionCanvas.jsx";
-import IntroOverlay from "/Users/mathisschecroun/Desktop/CPES2/Exposition/Components/exhibition/IntroOverlay.jsx";
-import RoomCartel from "/Users/mathisschecroun/Desktop/CPES2/Exposition/Components/exhibition/RoomCartel.jsx";
-import ArtworkPanel from "/Users/mathisschecroun/Desktop/CPES2/Exposition/Components/exhibition/ArtworkPanel.jsx";
-import AudioManager from "/Users/mathisschecroun/Desktop/CPES2/Exposition/Components/exhibition/AudioManager.jsx";
-import ControlsHelp from "/Users/mathisschecroun/Desktop/CPES2/Exposition/Components/exhibition/ControlsHelp.jsx";
-import { ROOMS_CONFIG } from "/Users/mathisschecroun/Desktop/CPES2/Exposition/Components/exhibition/ExhibitionData.js";
+import ExhibitionCanvas from "..Components/exhibition/ExhibitionCanvas.jsx";
+import IntroOverlay from "../Components/exhibition/IntroOverlay.jsx";
+import RoomCartel from "../Components/exhibition/RoomCartel.jsx";
+import ArtworkPanel from "../Components/exhibition/ArtworkPanel.jsx";
+import AudioManager from "../Components/exhibition/AudioManager.jsx";
+import ControlsHelp from "../Components/exhibition/ControlsHelp.jsx";
+import { ROOMS_CONFIG } from "../Components/exhibition/ExhibitionData.js";
 
 export default function Exhibition() {
   // États de l'application
