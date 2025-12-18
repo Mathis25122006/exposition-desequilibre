@@ -357,7 +357,7 @@ export const ARTWORKS = {
       {
         id: 'art3_18',
         type: 'glb',
-        url: 'oeuvres/cosmos/Desequilibre represente/bouteille.glb',
+        url: 'https://docs.google.com/uc?export=download&id=1e8SkPvHTo3xvGh1EBk9t7uRdnA7vNgbo',
         title: 'Bouteille et verre',
         artist: 'Henri Laurens',
         year: '1918',
