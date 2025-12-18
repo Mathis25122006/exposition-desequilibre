@@ -270,7 +270,7 @@ export const ARTWORKS = {
       {
         id: 'art2_9',
         type: 'glb',
-        url: 'oeuvres/cosmos/Desequilibre naturel/chaudiere_enfer.glb',
+        url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/chaudiere_enfer.glb',
         title: "Adam et Eve et la chaudière de l'Enfer",
         artist: 'Inconnu',
         year: 'vers 1230',
@@ -287,7 +287,7 @@ export const ARTWORKS = {
       {
         id: 'art2_10_glb',
         type: 'glb',
-        url: 'oeuvres/cosmos/Desequilibre naturel/torse.glb',
+        url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/torse.glb',
         title: 'Torse de la Ville détruite',
         artist: 'Ossip Zadkine',
         year: '1951 - 1963',
@@ -357,7 +357,7 @@ export const ARTWORKS = {
       {
         id: 'art3_18',
         type: 'glb',
-        url: 'https://docs.google.com/uc?export=download&id=1e8SkPvHTo3xvGh1EBk9t7uRdnA7vNgbo',
+        url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/bouteille.glb',
         title: 'Bouteille et verre',
         artist: 'Henri Laurens',
         year: '1918',
@@ -411,7 +411,7 @@ export const ARTWORKS = {
     {
       id: 'art2_10_glb', // ID corrigé pour l'unicité
       type: 'glb',
-      url: 'oeuvres/corps/espace/daniel.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/daniel.glb',
       title: 'Daniel dans la fosse aux lions',
       artist: 'inconnu',
       year: '500 / 1125',
@@ -445,7 +445,7 @@ export const ARTWORKS = {
     {
       id: 'art2_4',
       type: 'glb',
-      url: 'oeuvres/corps/espace/venus.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/venus.glb',
       title: 'La vénus à tiroirs',
       artist: 'Salvador Dali',
       year: '1936',
@@ -465,7 +465,7 @@ export const ARTWORKS = {
     {
       id: 'art2_5',
       type: 'glb',
-      url: 'oeuvres/corps/espace/daphne.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/daphne.glb',
       title: 'Daphné (poursuivie par Apollon),',
       artist: 'Guillaume Coustou',
       year: '1713/1715',
@@ -483,7 +483,7 @@ export const ARTWORKS = {
     {
       id: 'art2_6_glb',
       type: 'glb',
-      url: 'oeuvres/corps/espace/statuette.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/statuette.glb',
       title: 'Statuette',
       artist: 'Inconnu',
       year: 'Ie s. ap. J.-C.',
@@ -501,7 +501,7 @@ export const ARTWORKS = {
     {
       id: 'art2_7_glb',
       type: 'glb',
-      url: 'oeuvres/corps/espace/zoomorphe.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/zoomorphe.glb',
       title: 'Figurine zoomorphe',
       artist: 'Inconnu',
       year: 'XI-XVIIIe siècle',
@@ -518,7 +518,7 @@ export const ARTWORKS = {
     {
       id: 'art2_8_glb',
       type: 'glb',
-      url: 'oeuvres/corps/espace/chavire.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/chavire.glb',
       title: 'Homme qui chavire',
       artist: 'Alberto Giacometti',
       year: '1950',
@@ -624,7 +624,7 @@ export const ARTWORKS = {
     {
       id: 'art2_11_glb',
       type: 'glb',
-      url: 'oeuvres/corps/la dance/valse.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/valse.glb',
       title: 'La Valse ou les Valseurs',
       artist: 'Camille Claudel',
       year: 'vers 1893',
@@ -643,7 +643,7 @@ export const ARTWORKS = {
     {
       id: 'art2_12_glb',
       type: 'glb',
-      url: 'oeuvres/corps/la dance/Vajravarahi.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/Vajravarahi.glb',
       title: 'Vajravarahi',
       artist: 'Inconnu',
       year: 'XVe siècle',
@@ -713,7 +713,7 @@ export const ARTWORKS = {
     {
       id: 'art4_4',
       type: 'glb',
-      url: 'oeuvres/esprit/perturbation/table.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/table.glb',
       title: 'La table',
       artist: 'Alberto Giacometti',
       year: '1933',
@@ -921,7 +921,7 @@ export const ARTWORKS = {
     {
       id: 'art3_13',
       type: 'glb',
-      url: 'oeuvres/esprit/esprits/kafigeledio.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/kafigeledio.glb',
       title: 'statue anthropomorphe kafigueledio',
       artist: 'Inconnu',
       year: 'XIXe - première moitié du XXe siècle',
@@ -940,7 +940,7 @@ export const ARTWORKS = {
     {
       id: 'art3_14',
       type: 'glb',
-      url: 'oeuvres/esprit/esprits/nkisi.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/nkisi.glb',
       title: 'Statue magique nkisi',
       artist: 'Inconnu',
       year: 'avant 1931',
@@ -957,7 +957,7 @@ export const ARTWORKS = {
     {
       id: 'art3_15_glb', // ID corrigé
       type: 'glb',
-      url: 'oeuvres/esprit/esprits/serpent.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/serpent.glb',
       title: 'Spatule vomitive en forme de serpent',
       artist: 'Inconnu',
       year: '1300-1500,',
@@ -974,7 +974,7 @@ export const ARTWORKS = {
     {
       id: 'art3_16_glb', // ID corrigé
       type: 'glb',
-      url: 'oeuvres/esprit/esprits/tabata.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/tabata.glb',
       title: 'Sculpture Tabataba',
       artist: 'Inconnu',
       year: 'fin du XIXe siècle',
