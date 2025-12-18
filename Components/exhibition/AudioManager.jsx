@@ -5,10 +5,10 @@ import { Button } from "./Button";
 
 // URLs des sons d'ambiance (remplacer par vos propres fichiers)
 const AUDIO_SOURCES = {
-  ambient_hall: 'https://assets.mixkit.co/music/preview/mixkit-serene-view-443.mp3',
-  ambient_cosmos: 'https://assets.mixkit.co/music/preview/mixkit-deep-urban-623.mp3',
-  ambient_body: 'https://assets.mixkit.co/music/preview/mixkit-spirit-in-the-woods-139.mp3',
-  ambient_mind: 'https://assets.mixkit.co/music/preview/mixkit-sleepy-cat-135.mp3'
+  ambient_hall: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/meditation-relax-sleep-music-346733.mp3',
+  ambient_cosmos: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/meditation-relax-sleep-music-346733.mp3',
+  ambient_body: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/meditation-relax-sleep-music-346733.mp3',
+  ambient_mind: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/meditation-relax-sleep-music-346733.mp3'
 };
 
 export default function AudioManager({ currentRoom, isActive }) {
@@ -129,14 +129,15 @@ export default function AudioManager({ currentRoom, isActive }) {
         </Button>
         
         {isExpanded && (
-          <Slider
-            value={[volume]}
-            onValueChange={(val) => setVolume(val[0])}
-            max={100}
-            step={1}
-            className="w-24"
-          />
-        )}
+  <Slider
+    value={volume}          // On enlève les crochets [ ]
+    onChange={(val) => setVolume(val)} // On utilise onChange au lieu de onValueChange
+    max={100}
+    step={1}
+    className="w-24"
+  />
+)}
+
       </div>
       
       {!audioReady && isActive && (

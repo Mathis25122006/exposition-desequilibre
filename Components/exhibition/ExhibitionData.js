@@ -403,7 +403,7 @@ export const ARTWORKS = {
       dimensions: '205 x 290cm',
       position: { x: 49, y: 5, z: -9 },
       rotation: { x: 0, y: 0, z: 0 },
-      image: 'public/oeuvres/corps/espace/Selbstporträt.png',
+      image: 'oeuvres/corps/espace/Selbstporträt.png',
       subtheme: 0,
       location: 'Musée d’art moderne, Paris',
       inventoryNumber: 'AMVP 2781',
