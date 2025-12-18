@@ -53,11 +53,15 @@ Georges Bataille en 1929 : « l’informe consiste à déclasser, au double sens
   room2: {
     id: 'room2',
     name: 'Corps',
-    description: `Si l’on pense vraiment au corps en tant que tel, il n’est pas possible d’en tracer les contours. Il y a des réflexions sur la systématicité du corps, il y a des valeurs qui codent le corps, mais le corps en tant que tel, ne peut être pensé et, quant à moi, ne ne peux certainement pas l’approcher.” - Gayatri Chakravorty Spivak, “En un mot”, entretien avec Ellen Rooney.
+    description: `La salle précédente a commencé notre pensée du déséquilibre en explorant le déséquilibre au sein de mondes naturels et de ses représentations. L’être humain, être faisant partie d’un monde naturel, est lui aussi sujet au déséquilibre, qui s’exprime de différentes manières, mais notamment au travers de son corps. 
+    
+    Si l’on pense vraiment au corps en tant que tel, il n’est pas possible d’en tracer les contours. Il y a des réflexions sur la systématicité du corps, il y a des valeurs qui codent le corps, mais le corps en tant que tel, ne peut être pensé et, quant à moi, ne ne peux certainement pas l’approcher.” - Gayatri Chakravorty Spivak, “En un mot”, entretien avec Ellen Rooney.
 
 Le corps est une unité et est porteur d’une identité. Les changements du corps résultent de de ceux de l’esprit. Ainsi les déséquilibres du monde se retrouvent dans les corps. On pense aux corps traumatisé, chassés, martyrisés. Si l’humain est celui qui déséquilibre l’harmonie du monde et sa nature, marcher sur Terre ne serait -il pas alors la première forme de déséquilibre ?  
 
 Comment matérialiser le déséquilibre dans le corps ? Comment se l'approprier?  Faut-il toujours trouver un point d’appui ? 
+
+Explorer le déséquilibre dans les corps humains c’est explorer comment le corps subit ce déséquilibre, mais aussi comment il se l’approprie dans le mouvement volontairement déséquilibré, mouvement qui peut être dansé, sculpté ou peint. 
 `,
     color: '#502020',
     accentColor: '#ff4444',
@@ -72,7 +76,16 @@ Comment matérialiser le déséquilibre dans le corps ? Comment se l'approprier?
   room3: {
     id: 'room3',
     name: 'Esprit',
-    description: `“Ne devient pas fou qui veut “ -Jacques Lacan. Dans les conversations banales, on entend parfois qualifier certains individus légèrement désaxés de “déséquilibrés”. Etre déséquilibré, au sens large d’un trouble de l’équilibre mental supposé être la norme, signifie un quasi-statut, une catégorie déterminée. Le fou, figure aussi de l’artiste, a une vision décalée de voir le monde et de la comprendre. Car il est en marge, son identité peut aussi se dédoubler ou se multiplier. 
+    description: `“Si le déséquilibre humain se traduit par le corps en premier, il peut aussi s’exprimer plus subtilement dans les esprits. « Ne devient pas fou qui veut » - Jacques Lacan 
+
+Dans les conversations banales, on entend parfois qualifier certains individus légèrement désaxés de « déséquilibrés », s’ils ne semblent pas rentrer dans les normes de la société. Être déséquilibré, au sens large d’un trouble de l’équilibre mental supposé être la norme, signifie une catégorie déterminée en suivant cette vision.
+
+Quelles sont les formes du « déséquilibre » mental ? Elles sont multiples et différentes, aussi multiples et différentes que les individus qui les composent. Le fou, figure aussi de l’artiste, a une vision décalée du monde et une manière différente de le comprendre. Car il est en marge, son identité peut aussi se dédoubler ou se multiplier. 
+
+Ainsi, aborder une rupture dans l’équilibre mental conduit aussi à s’interroger sur les normes de la société, sur ce qui est considéré « normal ». Alors, déséquilibré peut devenir synonyme de autre, différent, invisibilisé et représenter le déséquilibre de l’esprit conduit à représenter des cultures invisibilisées, à multiplier les points de vue et les identités. 
+
+Mais, esprit ne peut pas être seulement entendu au singulier. Qu’en est-il des sociétés qui prennent contact avec les esprits, que ce soit ceux des ancêtres ou ceux de la nature ? Il en découle une multiplication des identités et des points de vue, des manières autres de voir et percevoir le monde. 
+
 `,
     color: '#203850',
     accentColor: '#4cc9f0',
@@ -115,22 +128,6 @@ export const ARTWORKS = {
     room1: [
       // ---------------- Zone 1 : Harmonie du cosmos ----------------
       { 
-        id: 'art1_0', 
-        type: 'painting', 
-        title: 'Citation', 
-        artist: 'Samuel Beckett', 
-        year: '2024',
-        description: '“La vie est une succession d’habitudes dans la mesure où l’individu est une succession d’individus. Puisque le monde est une projection de la conscience de l’individu, il faut sans cesse renouveler le pacte, valider le sauf-conduit. La création de l’univers n’a pas eu lieu une fois pour toutes, elle a lieu chaque jour.”', 
-        medium: '', 
-        dimensions: '60 x 30 cm',
-        position: { x: -40, y: 2, z: -6 }, 
-        rotation: { x: 0, y: -Math.PI / 2, z: 0 }, 
-        subtheme: 0, 
-        image: 'oeuvres/cosmos/citations.png',
-        location: '',
-        inventoryNumber: '',
-      },
-      { 
         id: 'art1_1', 
         type: 'painting', 
         title: 'Mandala de Buddhakapaladhara', 
@@ -154,7 +151,7 @@ export const ARTWORKS = {
         title: 'Rêve de la carotte sauvage', 
         artist: 'Paddy Jupurrurla Nelson', 
         year: '1991',
-        description: '', 
+        description: 'Paddy Jupurrurla Nelson est un artiste de la communauté Yuendumu. Il est l’un des premiers hommes Yuendumu à peindre à l’acrylique. Dans cette peinture, il exprime un sujet mythologique de la cosmogonie aborigène, le « Temps du rêve ». Le « Temps du rêve » est une période mythique durant laquelle la vie a été créée. L’utilisation de l’ocre rouge, symbole du sang et de la vie, est particulièrement significative dans ces peintures, notamment pour évoquer la présence des êtres ancestraux qui sont les architectes du monde. ', 
         medium: 'acrylique sur toile', 
         dimensions: '76 x 92 cm',
         position: { x: -60, y: 8, z: -6 }, 
@@ -186,7 +183,9 @@ export const ARTWORKS = {
         title: 'Peinture sur écorce', 
         artist: 'Liwukan Bukulatipi', 
         year: '1996',
-        description: '', 
+        descriptionSlides: ["Cartel Enfant : Approche-toi. Arrives-tu à voir de quel matériau est fait le support de cette peinture ? C’est fait en écorce d'arbre ! La peinture sur écorce est un art traditionnel de certains peuples qui vivent au nord de l’Australie. Ces peintures étaient notamment réalisées pour des cérémonies. Regarde aussi les couleurs !", 
+          "Il y a beaucoup de rouge parce que c’est la couleur associée au sang et à la vie, et on la retrouve beaucoup dans les peintures traditionnelles des peuples australiens. Mais dis-moi, est-ce que tu voudrais essayer de peindre sur une écorce d’arbre ?"],
+        hasChildLabel: true,
         medium: 'écorce et pigments noir, rouge, blanc, jaune', 
         dimensions: '62 x 88 cm',
         position: { x: -60, y: 4, z: 3 }, 
@@ -238,7 +237,7 @@ export const ARTWORKS = {
         title: 'Incendie du Kent', 
         artist: 'Théodore Gudin', 
         year: '1825',
-        description: 'Œuvre représentant le déséquilibre du monde naturel.', 
+        description: 'Premier artiste nommé peintre de la Marine royale, Théodore Gudin a 26 ans quand il présente cette composition en 1828. Profondément marqué par la noyade de son frère, Gudin exprime dans cette composition grandiose la puissance de la mer, qui semble omniprésente. La composition en diagonale exprime le déséquilibre des forces dans ce tableau : d’un côté, le navire sur le point de sombrer et les quelques survivants qui s’accrochent à la vie sur le canot. De l’autre, une mer sombre et déchaînée qui veut tout emporter sur son passage. L’équilibre est rompu dans ce tableau, entre monde naturel et monde humain. ', 
         medium: 'huile sur toile', 
         dimensions: '417 x 259 cm',
         position: { x: -48, y: 7, z: 9 }, 
@@ -404,7 +403,7 @@ export const ARTWORKS = {
       dimensions: '205 x 290cm',
       position: { x: 49, y: 5, z: -9 },
       rotation: { x: 0, y: 0, z: 0 },
-      image: 'oeuvres/corps/espace/Selbstporträt.png',
+      image: 'public/oeuvres/corps/espace/Selbstporträt.png',
       subtheme: 0,
       location: 'Musée d’art moderne, Paris',
       inventoryNumber: 'AMVP 2781',
@@ -416,7 +415,7 @@ export const ARTWORKS = {
       title: 'Daniel dans la fosse aux lions',
       artist: 'inconnu',
       year: '500 / 1125',
-      description: 'Emplacement pour une sculpture sur le corps.',
+      description: '',
       medium: 'marbre de Carrare',
       dimensions: '50 x 53 x 51 cm',
       position: { x: 57, y: 2, z: -9.5 },
@@ -475,7 +474,7 @@ export const ARTWORKS = {
       medium: 'marbre',
       dimensions: '132 x 135 x 65cm',
       position: { x: 59, y: 0, z: 0 },
-      rotation: { x: 0.1, y: -1.3, z: 0.15 },
+      rotation: { x: 0, y: -Math.PI/2, z: 0 },
       subtheme: 0,
       location: 'musée du Louvre, Paris',
       inventoryNumber: 'MR 1807',
@@ -523,11 +522,13 @@ export const ARTWORKS = {
       title: 'Homme qui chavire',
       artist: 'Alberto Giacometti',
       year: '1950',
-      description: '',
+      descriptionSlides: ["Homme qui chavire. Le titre de l'œuvre exprime bien le côté déséquilibré de la composition. Cet homme filiforme semble prêt à basculer d’un côté, à abandonner l’idée de rester debout : l’inflexion des jambes, les bras qui pendent, la tête légèrement en arrière, tout exprime une impuissance. Le déséquilibre est ici au service de la volonté de l’artiste de mieux appréhender la réalité grâce à l’art.",
+        "Selon lui, une sculpture « n'est pas un objet, elle est une interrogation, une question, une réponse, elle ne peut être ni finie ni parfaite ». Ici, la sculpture interroge la fatalité de la condition humaine, toujours prête à basculer d’un côté ou de l’autre. "
+      ],
       medium: 'bronze peint',
       dimensions: '60 x 22 x 36cm',
-      position: { x: 45, y: 0.7, z: -3 },
-      rotation: { x: 0.1, y: 0, z: 0.15 },
+      position: { x: 45, y: 0.7, z: -5 },
+      rotation: { x: 0, y: 0, z: 0 },
       subtheme: 0,
       location: 'Fondation Giacometti, Paris',
       inventoryNumber: 'AGD 915',
@@ -545,7 +546,7 @@ export const ARTWORKS = {
       ],
       medium: 'Bronze et fer',
       dimensions: '160 x 49 x 60cm',
-      position: { x: 47, y: 0.7, z: 5 },
+      position: { x: 52, y: 0.7, z: 8 },
       rotation: { x: 0.1, y: Math.PI, z: 0.15 },
       subtheme: 0,
       location: 'Musée National d’Art Moderne, Centre pompidou, Paris',
@@ -596,7 +597,7 @@ export const ARTWORKS = {
       ],
       medium: 'Vidéo YouTube',
       dimensions: '150 x 100 cm',
-      position: { x: 48, y: 2.5, z: 9 },
+      position: { x: 48, y: 6, z: 9 },
       rotation: { x: 0, y: Math.PI, z: 0 },
       youtubeId: 'Y_0GvlL4s9o',
       subtheme: 1,
@@ -609,7 +610,7 @@ export const ARTWORKS = {
       title: '[Corps 9]',
       artist: 'À venir',
       year: '2024',
-      description: 'Emplacement pour une œuvre corporelle.',
+      description: '',
       medium: 'À définir',
       dimensions: '120 x 90 cm',
       position: { x: 55, y: 2.5, z: 9 },
@@ -627,11 +628,13 @@ export const ARTWORKS = {
       title: 'La Valse ou les Valseurs',
       artist: 'Camille Claudel',
       year: 'vers 1893',
-      description: '',
+      descriptionSlides: ["Cette œuvre représente un couple de danseurs en mouvement autour d’un axe oblique. Le mouvement, mis en valeur par le drapé de la jupe de la danseuse, semble pousser les valseurs jusqu’à leur point d’équilibre. Le pied levé du danseur, accompagnant la jupe de sa partenaire, ainsi que la présence de la base rectangulaire renforcent l’impression de déséquilibre générale qui se dégage de l'œuvre, caractéristique des travaux de la sculptrice Camille Claudel.",
+        "Le déséquilibre s’exprime aussi dans le contraste entre la musculature du danseur et la sensualité du corps de sa partenaire, évoquant un amour charnel et infini."
+      ],
       medium: 'bronze',
       dimensions: '44 x 25 x 25cm',
-      position: { x: 53, y: 0.7, z: 6 },
-      rotation: { x: 0.1, y: Math.PI, z: 0.15 },
+      position: { x: 56, y: 0.7, z: 8 },
+      rotation: { x: 0, y: Math.PI, z: 0 },
       subtheme: 1,
       location: 'Musée Rodin',
       inventoryNumber: 'S.01013',
@@ -730,10 +733,11 @@ export const ARTWORKS = {
       title: 'Le Saut dans le vide',
       artist: 'Yves Klein',
       year: '1960',
-      description: 'Cartel Enfant : Je suis d’accord avec toi, on peut se demander pourquoi il est en train de sauter dans le vide. ',
+      descriptionSlides: ["Cartel Enfant : Je suis d’accord avec toi, on peut se demander pourquoi il est en train de sauter dans le vide. Cette action paraît étrange, pas vraiment normale. En réalité, ce qu’il est en train de faire te permet de te poser plein de questions ! Qu’est-ce qui est normal pour toi par exemple ? Est-ce que tu n’es pas un peu curieux de savoir ce que ça fait de sauter dans le vide ?",
+        "Finalement, on est peut-être un peu tous comme ce monsieur. Alors, la prochaine fois que tu vois quelque chose de bizarre, qui sort de l’ordinaire, pose toi des questions et essaie de comprendre ?"],
       hasChildLabel: true,
       medium: 'Tirage en recto sur PVC 2mm M1, montée sur chassis noir au verso et équipée de 2 anneaux d’accroche',
-      dimensions: '80 x 120 cm',
+      dimensions: '50 x 60 cm',
       position: { x: -9, y: 5, z: -52 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
       image: 'oeuvres/esprit/perturbation/saut.jpg',
@@ -765,7 +769,7 @@ export const ARTWORKS = {
       title: 'Sans titre',
       artist: 'Joan Miro',
       year: '1973',
-      description: 'Emplacement pour une œuvre mentale.',
+      description: '',
       medium: 'encre de Chine gouache et pastel sur Papier',
       dimensions: '58 x 45 cm',
       position: { x: -9, y: 5, z: -48 },
@@ -781,7 +785,7 @@ export const ARTWORKS = {
       title: 'Selfportrait',
       artist: 'Francis Bacon',
       year: '1971',
-      description: 'Emplacement pour une œuvre mentale.',
+      description: '',
       medium: 'Huile sur toile',
       dimensions: '30 x 35 cm',
       position: { x: -9, y: 2.5, z: -48 },
@@ -883,7 +887,9 @@ export const ARTWORKS = {
       title: 'Chasseurs de fictions coloniales',
       artist: 'Denilson Baniwa',
       year: '2021',
-      description: 'Cartel Enfant : As-tu déjà vu Star Wars ? Si oui tu as forcément dû reconnaître R2D2 sur la photo. Que fait-il dans ce décor, ça c’est une bonne question. L’artiste qui a réalisé cette série de photographie s’appelle Denilson Baniwa et est un artiste indigène brésilien. Indigène signifie qu’il fait partie d’une population, les Baniwa, qui était présente au Brésil avant l’arrivée des Européens. ',
+      descriptionSlides: ["Cartel Enfant : As-tu déjà vu Star Wars ? Si oui tu as forcément dû reconnaître R2D2 sur la photo. Que fait-il dans ce décor, ça c’est une bonne question. L’artiste qui a réalisé cette série de photographie s’appelle Denilson Baniwa et est un artiste indigène brésilien. Indigène signifie qu’il fait partie d’une population, les Baniwa, qui était présente au Brésil avant l’arrivée des Européens.",
+        "L’artiste prend des photos d’époque, datant généralement du XIXe siècle, et ajoute des éléments de notre culture dessus. Il fait ça pour inviter les gens à réfléchir sur l’utilisation des images pour faire connaître les peuples indigènes. En effet, certaines de ces images représentaient des clichés, ce qui a conduit aux développements de stéréotypes sur les populations indigènes. "
+      ],
       hasChildLabel: true,
       medium: 'collage numérique, reproductions',
       dimensions: ' 60 x 80 cm',
@@ -900,7 +906,9 @@ export const ARTWORKS = {
       title: 'Untitled',
       artist: 'Emily Kame Kngwarreye',
       year: '1994',
-      description: 'Emplacement pour une œuvre mentale.',
+      descriptionSlides: ["Emily Kame Kngwarreye est une figure emblématique de l’art aborigène contemporain, mélangeant traditions ancestrales de son peuple Anmatyerr et expression artistiques modernes comme l’abstraction. Sa formation artistique est d’abord et avant tout traditionnelle et culturelle pour préserver l'héritage ancestral des dessins et des motifs laissés dans le paysage car la terre est une toile sur laquelle s’inscrit la trace des activités ancestrales, selon la plupart des cultures aborigènes australiennes. ",
+        "Évoquer l’esprit en déséquilibre permet d’aborder la question d’un point de vue autre, décalé par rapport à une culture occidentale dominante et de mettre en valeur ces cultures invisibilisées. "
+      ],
       medium: 'acrylique sur toile',
       dimensions: ' 80 x 80 cm',
       position: { x: 5, y: 4, z: -55 },
@@ -917,7 +925,8 @@ export const ARTWORKS = {
       title: 'statue anthropomorphe kafigueledio',
       artist: 'Inconnu',
       year: 'XIXe - première moitié du XXe siècle',
-      description: '',
+      description: 'Cartel Enfant : Regarde cette statue. Dis-moi arrives-tu à savoir ce qui fait qu’elle est spéciale ? C’est une statue qu’on appelle kafigueledio, ce qui veut dire « celui qui dit la vérité». Cette statue est une statue de divination ! Elle a été fabriquée par le peuple sénoufo, un peuple vivant en Afrique de l’Ouest, surtout dans le pays qui est aujourd’hui la Côte d’Ivoire. Aimerais-tu pouvoir connaître le futur ?',
+      hasChildLabel:true,
       medium: 'bois, tissu, plumes, poils, cauris, matières composites',
       dimensions: '68 x 26 x 26cm',
       position: { x: 5, y: 1, z: - 51},
@@ -969,7 +978,7 @@ export const ARTWORKS = {
       title: 'Sculpture Tabataba',
       artist: 'Inconnu',
       year: 'fin du XIXe siècle',
-      description: '',
+      description: 'Cette sculpture a été fabriquée par le peuple Tolaï qui vit en Papouasie-Nouvelle-Guinée. Le processus de fabrication de ce type de sculpture est tenu secret, probablement parce que cette sculpture servait dans des rituels de la société secrète initiatique Iniet, réservée aux hommes. Différentes formes d’art étaient utilisées pour représenter les esprits, dont la sculpture. Les magies au sein de la société secrète étaient réalisées pour recevoir les pouvoirs des esprits. Cette sculpture témoigne d’une culture qui communique avec les esprits, ce qui lui donne une vision autre du monde qui nous entoure. ',
       medium: 'bois assemblé, fibres végétales, plumes, écaille, os, pigments',
       dimensions: '380 x 126 x 1cm',
       position: { x: -3, y: 5, z: - 41},
