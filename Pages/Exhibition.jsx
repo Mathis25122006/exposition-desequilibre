@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 // Note: J'ai laissé les chemins locaux, mais ils sont très longs.
-import ExhibitionCanvas from "..Components/exhibition/ExhibitionCanvas.jsx";
+import ExhibitionCanvas from "../Components/exhibition/ExhibitionCanvas.jsx";
 import IntroOverlay from "../Components/exhibition/IntroOverlay.jsx";
 import RoomCartel from "../Components/exhibition/RoomCartel.jsx";
 import ArtworkPanel from "../Components/exhibition/ArtworkPanel.jsx";
