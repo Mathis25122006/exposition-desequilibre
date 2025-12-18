@@ -382,7 +382,7 @@ export default function ExhibitionCanvas({
 
       const delta = clockRef.current.getDelta();
       const controls = controlsRef.current;
-      const speed = controls.isRunning ? 500 : 250;
+      const speed = controls.isRunning ? 50 : 25;
 
       // Calcul des vecteurs de direction
       const forward = new THREE.Vector3();
