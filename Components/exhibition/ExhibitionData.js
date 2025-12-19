@@ -38,7 +38,18 @@ Georges Bataille en 1929 : « l’informe consiste à déclasser, au double sens
   room1: {
     id: 'room1',
     name: 'Cosmos',
-    description: `Le cosmos nous rappelle notre place infinitésimale dans l'univers...`,
+    description: `Le déséquilibre est présent tout autour de nous, dans les choses naturelles aussi bien que dans les objets humains. Il suffit de prêter attention pour trouver quelque chose sur le point de basculer, de briser l’harmonie du monde naturel. 
+
+Mais comment appréhender le déséquilibre dans le monde naturel ? 
+
+Pour comprendre les déséquilibres du monde naturel, il faut d’abord avoir en tête des représentations du monde équilibrées. Le cercle, symbole quasi universel d’équilibre et d’unité, se substitue parfois à d’autres représentations de création d’un monde en harmonie. 
+
+Ce monde en harmonie, monde naturel dans lequel vivent les êtres humains, peut être déstabilisé par des forces supérieures, les forces de la nature, mais également par les actions des êtres qui peuplent ce monde. D’un point de vue théologique, le monde en harmonie est la création d’une ou plusieurs divinités et est souvent déséquilibré par les actions des êtres humains. 
+
+En découle les souffrances de l’humanité qui se retrouve bien souvent dans un monde en crise. Comment créer dans un monde en crise ? En structurant de nouveaux espaces, de nouvelles représentations du monde qui ne mettent en scène plus que des abstractions. Repenser les représentations du monde pour mieux transmettre sa crise. 
+
+« Puisque le monde est une projection de la conscience de l’individu, il faut sans cesse renouveler le pacte, valider le sauf-conduit. La création de l’univers n’a pas eu lieu une fois pour toutes, elle a lieu chaque jour. » - Samuel Beckett
+t`,
     color: '#3a2860',
     accentColor: '#9d4edd',
     subthemes: [
@@ -203,8 +214,8 @@ export const ARTWORKS = {
         title: "Adam et Eve, La Chute de l'homme", 
         artist: 'Albrecht Dürer', 
         year: '1504',
-        descriptionSlides: ['Dans la genèse, Adam et Eve brise l’équilibre du jardin d’Eden. Donc la condition humaine déséquilibre la Terre, création parfaite de Dieu.' ,
-"L’harmonie serait alors en lien avec le bien et le désordre avec le mal. Autrement dit, le paradis = le bien , l’harmonie tandis que les enfers = le mal, le diable, le déséquilibre. "]
+        descriptionSlides: ["Dans la Genèse, le jardin d’Eden est la création parfaite de Dieu. Adam et Ève brisent l’équilibre de ce jardin en consommant le fruit de l'arbre défendu, l’arbre de la connaissance du bien et du mal." ,
+"La condition humaine déséquilibre donc la Terre, monde parfait et naturel créé par Dieu. L’harmonie serait alors en lien avec le bien et le désordre avec le mal. Autrement dit, le paradis est le bien, l’harmonie tandis que les enfers sont le mal, le diable, le déséquilibre."]
 , 
         medium: "Burin. Signé et daté sur une tablette suspendue à la branche que tient Adam : ALBERT / DVRER / NORICVS / FACIEBAT / monogramme de l'artiste, 1504", 
         dimensions: '20 x 26 cm',
@@ -537,7 +548,7 @@ export const ARTWORKS = {
     {
       id: 'art2_9_glb',
       type: 'glb',
-      url: 'oeuvres/corps/diabolo.glb',
+      url: 'https://wktlnqvfxf7srwv7.public.blob.vercel-storage.com/diabolo.glb',
       title: 'Le Diabolo',
       artist: 'Germaine Richier',
       year: '1950',

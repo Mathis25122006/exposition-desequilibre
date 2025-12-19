@@ -39,13 +39,13 @@ export default function Exhibition() {
     console.log("Changement de salle vers :", roomId);
     setCurrentRoom(roomId);
     
-    // Afficher le cartel si c'est la première visite de la salle
-    if (!visitedRooms.has(roomId) && roomId !== 'room0') {
+    // On affiche le cartel SYSTEMATIQUEMENT
+    // On peut garder la condition (roomId !== 'room0') si vous ne voulez pas 
+    // que le texte du Hall s'affiche quand on y revient.
+    if (roomId !== 'room0') {
       setShowCartel(true);
-      setVisitedRooms(prev => new Set([...prev, roomId]));
-      console.log("Nouvelle salle visitée :", roomId);
     }
-  }, [visitedRooms]);
+  }, []);
 
   // Clic sur une œuvre
   const handleArtworkClick = useCallback((artwork) => {
@@ -98,6 +98,7 @@ export default function Exhibition() {
 
       {/* Cartel de salle (Doit avoir un z-index élevé) */}
       <RoomCartel
+        key={currentRoom}
         room={currentRoomConfig}
         isVisible={showCartel}
         onDismiss={handleDismissCartel}
